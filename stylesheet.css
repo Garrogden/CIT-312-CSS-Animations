@@ -1,0 +1,22 @@
+@keyframes swings {
+    0% {
+        transform: rotate(-30deg);
+    }
+    50% {
+        transform: rotate(100deg);
+    }
+    100% {
+        transform: rotate(-30deg);
+    }
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    top: -20px;
+    left: 400px;
+    position:relative;
+    animation-name: swings;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
